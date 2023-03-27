@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+.container {
+    height: 27vh;
+    width: 100vw ;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8vmax;
+    padding-right: 8vmax;
+    padding-top: 4vmax;
+}
+
+#logo {
+    color: rgb(207, 38, 111);
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2vmax;
+    padding-top: 2.1vmax;
+}
+
+#image {
+    padding-top: 2vmax;
+    word-spacing: 2vmax;
+}
+
+#about {
+    margin-top: 4vmax;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 100 1.6vmax 400;
+
+}
+
+#about h4 {
+    opacity: 70%;
+
+}
+
+#vision {
+    width: 100%;
+    /* height: 100vh; */
+    margin-top: 4vh;
+    /* background-color: red; */
+    display: flex;
+
+
+}
+
+#vleft {
+    width: 50%;
+    /* background-color: pink; */
+    flex-direction: column;
+    display: flex;
+    gap: 7vh;
+    text-align: centre;
+    padding: 5vh 19vh;
+}
+
+#vright {
+    width: 50%;
+    height: 100vh;
+
+    /* background-color:rgb(38, 80, 159); */
+    padding-top: 6vh;
+    padding-left: 3vw;
+    padding-right: 10vw;
+}
+
+#vleft h1 {
+    text-align: center;
+    font-weight: 200;
+
+}
+
+#approch {
+    margin: 7vh;
+    width: 100%;
+    height: vh;
+    /* background-color: red; */
+    display: flex;
+
+
+}
+
+#aleft {
+    width: 50vw;
+    /* background-color: yellow; */
+    padding: 4vh 6vw;
+}
+
+#aright {
+    width: 50vw;
+    /* background-color: grey; */
+    flex-direction: column;
+    display: flex;
+    gap: 7vh;
+    padding-top: 5vh;
+    padding-left: 2vw;
+    padding-right: 9vw;
+
+
+}
+
+#aright h1 {
+    text-align: center;
+    font-weight: 200;
+}
+
+#process {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    display: flex;
+}
+
+#pleft {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 8vh;
+   padding: 4vh 9vw;
+}
+
+#pright {
+    width: 50%;
+   padding: 7vh 8vw;
+    /* background-color: yellow; */
+
+}
+#pleft h1{
+    text-align: centre;
+    font-weight: 400;
+   
+}
+#x{
+    height: 24vh;
+    width: 100%;
+    background-color: rgb(55, 51, 51);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 9vh;
+}
+#x h1{
+    color: white;
+    font-weight: 100;
+ 
+}
+input{
+   
+        color: white;
+        height: 5vh;
+        width: 18vw;
+        background-color: transparent;
+    
+}
+#but{
+    height: 5vh;
+    width: 8vw;
+    background-color: yellow;
+}
+#footer{
+    width: 100%;
+    padding: 4vh 2vw;
+     /* height: 60%; */
+    display: flex;
+    
+    justify-content: space-around;
+    gap: 4vw;
+   
+}
+#company{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+   
+}
+#company h4{
+    font-weight: 100;
+}
+#service{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+#service h4{
+    font-weight: 100;
+}
+#order{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+#order h4{
+    font-weight: 200;
+}
+#payment{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
